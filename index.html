@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ..........................Header .......................................-->
+    <div class="header d-flex align-items-center justify-content-center"
+        style="padding: 50px 150px 0px 150px; gap:62.5px">
+        <div class="logo">
+            <img src="./ShipUp.png" alt="">
+        </div>
+        <div class="navbar p-0">
+            <ul class="d-flex " style="gap: 28px;">
+                <li>
+                    <div class="dropdown">
+                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Company
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li>Services</li>
+                <li>Solutions</li>
+                <li>Industries</li>
+                <li>Insights</li>
+                <li>News and Media</li>
+            </ul>
+        </div>
+        <div class="header-buttons d-flex" style="width: 353px; justify-content: space-between;">
+            <button type="button" class="btn btn-outline-primary request">Request Quote</button>
+            <button class="btn btn-primary join-now" type="submit">Join Now</button>
+        </div>
+    </div>
+
+
+    <!-- ................Hamburger................................................. -->
+    <nav class="navrol " role="navigation">
+        <div id="menuToggle" style="display: none;">
+
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul id="menu">
+                <a href="#">
+                    <li>
+
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Company
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+
+
+                    </li>
+                </a>
+                <a href="#">
+                    <li>Services</li>
+                </a>
+                <a href="#">
+                    <li>Solutions</li>
+                </a>
+                <a href="#">
+                    <li>Industries</li>
+                </a>
+                <a href="#">
+                    <li>Insights</li>
+                </a>
+                <a href="#">
+                    <li>News and Media</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="logo-ham" style="display: none;">
+        <img src="./ShipUp.png" alt="">
+    </div>
+
+    <!-- .......................banner................................................ -->
+    <div class="banner">
+        <div class="banner-content d-flex"
+            style="padding-right:  75px; justify-content: space-between; align-items: center;">
+            <div class="banner-text" style="position: relative;">
+                <!-- <img src="./images/Ellipse 12.png" alt="" style="position: absolute; top: -10px;" class="img-fluid"> -->
+                <img class="bus" src="./mdi_truck-fast-outline.png" alt="" style="position: absolute;left: 51%; top:15px ; background-color: white; border-radius: 20px; 
+                    box-shadow: 0px 0px 12px 0px; 
+                    ">
+
+
+                <h1 style="margin-top: 200px; margin-bottom: 20px;">Quick & Reliable <span
+                        style="color: #F67366; font-weight: 700;"> Warehousing and Logistics</span> Solution.</h1>
+                <p style="margin-bottom: 50px;">ShipUp delivers an unparalleled customer service through dedicated
+                    customer teams, engaged people
+                    working in an agile
+                    culture, and a global footprint.</p>
+                <div class="demo d-flex" style="gap: 30px; align-items: center; position: relative;">
+                    <button class="btn btn-primary join-now" type="submit">Join Now</button>
+                    <img src="./Video1.png" style="background-color: white; border-radius: 20px; 
+                    box-shadow: 0px 0px 12px 0px; ">
+                    <label class="playdemo" for="">Play Demo</label>
+                    <!-- <iframe src="" frameborder="0"></iframe> -->
+                    <iframe class="iframe"
+                        style="position:absolute; right: 40px; bottom: 50px; transition: 0.3s ease-in-out; border-radius: 20px; display:block; opacity: 0; pointer-events: none; "
+                        width="360" height="215" src="https://www.youtube.com/embed/RD-b72PLH1A?si=8hOEfwxD_j46zTXX"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </div>
+
+                <img class="plane" src="./bx_bxs-plane-take-off.png" alt="">
+            </div>
+            <div class="banner-image">
+                <img src="./91fa59e6781adbdced82e349bb595d99 1.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+
+        <div class="banner-input" style="margin-bottom: 88px;padding: 0px 150px;">
+            <div class="banner-input-content d-flex" style="gap: 22px; align-items: center;">
+                <div class="origin" style="position: relative;">
+                    <input class="cut-border" id="origin" type="text" placeholder="Enter Location "
+                        style="border-radius: 12px; border: 1px solid #979797; width: 250px; height: 64px;">
+                    <label for="origin"
+                        style="position: absolute; left: 15px; z-index: 5; bottom: 55px; background-color: white;">Origin
+                    </label>
+                    <img src="./Location.png" alt="" style="position: absolute; left: 16px;top: 24px;">
+
+                </div>
+
+                <div class="location" style="position: relative;">
+                    <input class="cut-border" id="origin" type="text" placeholder="Enter Location "
+                        style="border-radius: 12px; border: 1px solid #979797; width: 250px; height: 64px;">
+                    <label for="location"
+                        style="position: absolute; left: 3px; z-index: 5; bottom: 55px; background-color: white;">Destination
+                    </label>
+                    <img src="./Location.png" alt="" style="position: absolute; left: 16px;top: 24px;">
+
+
+                </div>
+                <div class="weight" style="position: relative;">
+                    <input class="cut-border" id="weight" type="text" placeholder="Weight (KG)"
+                        style="border-radius: 12px; border: 1px solid #979797; width: 250px; height: 64px;">
+                    <label for="weight"
+                        style="position: absolute; left: 15px; z-index: 5; bottom: 55px; background-color: white;">Weight
+                    </label>
+                    <img src="./Bag 2.png" alt="" style="position: absolute; left: 16px;top: 24px;">
+                </div>
+
+                <button>Check Price</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- .........................footer ................................................-->
+    <div class="footer " style="padding: 50px 150px 50px 150px;">
+        <div class="footer-content d-flex  border-bottom" style="padding-bottom: 70px;">
+            <div class="ship">
+
+                <img src="./ShipUp (1).png" width="100px" height="30px">
+                <p class="text-white" style="width: 220px;">ShipUp delivers an unparalleled customer service through
+                    dedicated customer teams, engaged people
+                    working in an agile culture, and a global footprint</p>
+
+            </div>
+            <div class="explore d-flex flex-column">
+                <span>Explore</span>
+                <ul>
+                    <a href="#">
+                        <li>About Us</li>
+                    </a>
+                    <a href="">
+                        <li>Our Warehouse</li>
+                    </a>
+                    <a href="">
+                        <li>Blog</li>
+                    </a>
+                    <a href="">
+                        <li>News and Media</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="legal d-flex flex-column">
+                <span>Legal</span>
+                <ul>
+                    <a href="">
+                        <li>Terms</li>
+                    </a>
+                    <a href="">
+                        <li>Privacy</li>
+                    </a>
+
+                </ul>
+            </div>
+            <div class="social-media d-flex flex-column">
+                <span>Social Media</span>
+                <div class="social-icon d-flex">
+                    <img src="./fb.png" alt="">
+                    <img src="./tweet.png" alt="">
+                    <img src="./whatsapp.png" alt="">
+                    <img src="./insta.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-logo text-center">
+            <img src="./ShipUp.ng.png" alt="" class="mt-4">
+        </div>
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+
+        const playdemo = document.querySelector('.playdemo');
+        const iframe = document.querySelector('.iframe');
+        let mouseoutTimer;
+
+        playdemo.addEventListener('click', () => {
+            iframe.style.opacity = '1';
+            iframe.style.pointerEvents = 'auto';
+        });
+
+        playdemo.addEventListener('mouseout', () => {
+
+            mouseoutTimer = setTimeout(() => {
+                iframe.style.opacity = '0';
+                iframe.style.pointerEvents = 'none';
+            }, 100);
+        });
+
+        playdemo.addEventListener('mouseover', () => {
+
+            clearTimeout(mouseoutTimer);
+            iframe.style.opacity = '1';
+            iframe.style.pointerEvents = 'auto';
+        });
+
+
+        iframe.addEventListener('mouseover', () => {
+            clearTimeout(mouseoutTimer);
+        });
+
+        iframe.addEventListener('mouseout', () => {
+
+            mouseoutTimer = setTimeout(() => {
+                iframe.style.opacity = '0';
+                iframe.style.pointerEvents = 'none';
+            }, 100);
+        });
+
+
+    </script>
+</body>
+
+</html>
